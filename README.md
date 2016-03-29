@@ -11,9 +11,3 @@ Programmatically implement the credentials flow from Token Slinger!
    request. Upon failure, display message.
 4. Create an authenticated request: (`GET /me`). Sign it with the token.
    Upon success, display user info. Upon failure, display message.
-
-### Note
-
-It may be difficult to set headers for authorized requests. Check out
-the docs for jQuery (for [`Content-Type`](http://api.jquery.com/jquery.ajax/) or [general use](http://stackoverflow.com/questions/7686827/how-can-i-add-a-custom-http-header-to-ajax-request-with-js-or-jquery)) or [Angular's $http](https://docs.angularjs.org/api/ng/service/$http#setting-http-headers).
-
